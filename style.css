@@ -37,11 +37,11 @@ header img {
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header header"
-    "main main main main"
-    "section section aside aside"
+    "forsidebillede forsidebillede forsidebillede forsidebillede"
+    "buy buy buypic buypic"
     "booking booking booking booking"
-    "article article textarea textarea"
-    "contact contact picture picture"
+    "leasing leasing textarea textarea"
+    "hello hello hellopic hellopic"
     "footer footer footer footer"
     ;
 }
