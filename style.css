@@ -74,3 +74,13 @@
   margin-top: 15%;
   text-decoration: underline;
 }
+
+/*Lille tekst i højre side til vores koncept*/
+    .teksttilkoncept {
+    color: #103D1D;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
