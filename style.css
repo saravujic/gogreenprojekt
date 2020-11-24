@@ -84,3 +84,19 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/*Grid area*/
+.ejernebag {
+    background-color: #ECF0EB;
+    grid-area: article;
+  }
+  
+/*Lille tekst i venstre side til ejerne bag*/ 
+  .teksttilejernebag {
+  color: #103D1D;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
