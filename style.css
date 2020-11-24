@@ -46,3 +46,16 @@
     width: 9%;
 }
 /*Her slutter stylingen af header */
+
+/*Grid area*/
+    .billedeafbil {
+    grid-area: main;
+    background-color: #ECF0EB;
+}
+    
+/*Styling af billedet af el-bilen*/
+    .billedeafelbil {
+      height: 100%;
+      width: 100%;
+      
+}
