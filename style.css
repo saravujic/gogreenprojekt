@@ -5,6 +5,19 @@
 }
 
 /*Forside styling begynder*/
+.grid-container-forside{
+    display: grid;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;  
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "car-pic car-pic car-pic aside"
+    "container-icon container-icon container-icon container-icon"
+    "footer footer footer footer";
+  }
+
 
 /*Forside styling slutter*/
 
@@ -33,19 +46,6 @@
 /*Køb og Leasing styling slutter*/
 
 /*Om os styling begynder*/
-.grid-container-omos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas: 
-    "header header header header"
-    "main main aside aside"
-    "article article picture picture"
-    "timeline timeline timeline timeline"
-    "footer footer footer footer"
-    ;
-  
-  }
 
 /*Om Os styling slutter*/
 
