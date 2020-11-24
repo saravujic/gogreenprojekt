@@ -4,6 +4,33 @@
     font-family: sans-serif;
 }
 
+/*Header styling*/
+header {
+    grid-area: header;
+    background-color: #0C6B00;
+    padding: 15px;
+}
+
+header img {
+    width: 20%;
+}
+
+.button {
+    border: 1px solid #ECF0EB;
+    background-color: #0C6B00;
+    color: #ECF0EB;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px;
+    margin: 4px;
+    place-items: right;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 9%;
+}
+
 /*Forside styling begynder*/
 .grid-container-forside{
     display: grid;
