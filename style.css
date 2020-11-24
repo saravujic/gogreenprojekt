@@ -113,3 +113,15 @@
   width: 100%;
   height: 100%;
   }
+
+  /*Grid area*/
+.tidslinjen {
+    background-color: #ECF0EB;
+    grid-area: timeline;
+  }
+  
+  /*Styling af billedet med tidslinjen*/
+  .tidslinjebillede{
+    max-width: 1420px;
+    max-height: 700px;
+  }
