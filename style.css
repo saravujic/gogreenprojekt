@@ -15,6 +15,13 @@
     "timeline timeline timeline timeline"
     "footer footer footer footer"
     ;
-
-  }
-  
+}
+    header {
+        grid-area: header;
+        background-color: #0C6B00;
+        padding: 15px;
+      }
+      
+      header img {
+        width: 20%;
+      }
