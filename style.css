@@ -4,7 +4,8 @@
     font-family: sans-serif;
 }
 
-.grid-container-omos {
+/*Grid container*/
+    .grid-container-omos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -16,12 +17,14 @@
     "footer footer footer footer"
     ;
 }
+
+/*Header styling*/
     header {
-        grid-area: header;
-        background-color: #0C6B00;
-        padding: 15px;
-      }
+    grid-area: header;
+    background-color: #0C6B00;
+    padding: 15px;
+}
       
-      header img {
-        width: 20%;
-      }
+    header img {
+    width: 20%;
+}
