@@ -100,3 +100,16 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+/*Grid area*/
+.billedeafejerne{
+    background: #ECF0EB;
+    grid-area: picture;
+  }
+  
+  
+  /*Styling af billede af ejerne*/
+  .ejereafbillede {
+  width: 100%;
+  height: 100%;
+  }
