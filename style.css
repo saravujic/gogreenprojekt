@@ -29,7 +29,8 @@
     width: 20%;
 }
 
-.button {
+/*Knapper i headeren*/
+    .button {
     border: 1px solid #ECF0EB;
     background-color: #0C6B00;
     color: #ECF0EB;
