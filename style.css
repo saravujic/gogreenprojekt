@@ -33,6 +33,19 @@
 /*Køb og Leasing styling slutter*/
 
 /*Om os styling begynder*/
+.grid-container-omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main aside aside"
+    "article article picture picture"
+    "timeline timeline timeline timeline"
+    "footer footer footer footer"
+    ;
+  
+  }
 
 /*Om Os styling slutter*/
 
