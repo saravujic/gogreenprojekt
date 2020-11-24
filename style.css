@@ -16,18 +16,18 @@
     "timeline timeline timeline timeline"
     "footer footer footer footer"
     ;
-}
+    }
 
 /*Header styling*/
     header {
     grid-area: header;
     background-color: #0C6B00;
     padding: 15px;
-}
+    }
       
     header img {
     width: 20%;
-}
+    }
 
 /*Knapper i headeren*/
     .button {
@@ -44,28 +44,29 @@
     margin-top: 15px;
     margin-bottom: 15px;
     width: 9%;
-}
+    }
 /*Her slutter stylingen af header */
+
 
 /*Grid area*/
     .billedeafbil {
     grid-area: main;
     background-color: #ECF0EB;
-}
+    }
     
 /*Styling af billedet af el-bilen*/
     .billedeafelbil {
-      height: 100%;
-      width: 100%;
-      
-}
+    height: 100%;
+    width: 100%; 
+    }
 
 /*Grid area*/
     .voreskoncept {
     grid-area: aside;
     background-color: #ECF0EB;
-}
+    }
   
+
 /*Titel til vores koncept*/
   .titeltilalt {
   color: #103D1D;
@@ -73,7 +74,8 @@
   text-align: center;
   margin-top: 15%;
   text-decoration: underline;
-}
+  }
+
 
 /*Lille tekst i højre side til vores koncept*/
     .teksttilkoncept {
@@ -83,13 +85,14 @@
     margin-top: 5%;
     margin-left: 20px;
     margin-right: 20px;
-}
+    }
+
 
 /*Grid area*/
-.ejernebag {
+    .ejernebag {
     background-color: #ECF0EB;
     grid-area: article;
-  }
+    }
   
 /*Lille tekst i venstre side til ejerne bag*/ 
   .teksttilejernebag {
@@ -99,29 +102,29 @@
   margin-top: 5%;
   margin-left: 20px;
   margin-right: 20px;
-}
+    }
 
 /*Grid area*/
-.billedeafejerne{
+    .billedeafejerne{
     background: #ECF0EB;
     grid-area: picture;
-  }
+    }
   
-  
-  /*Styling af billede af ejerne*/
+/*Styling af billede af ejerne*/
   .ejereafbillede {
   width: 100%;
   height: 100%;
   }
 
-  /*Grid area*/
-.tidslinjen {
+
+/*Grid area*/
+    .tidslinjen {
     background-color: #ECF0EB;
     grid-area: timeline;
-  }
+    }
   
-  /*Styling af billedet med tidslinjen*/
-  .tidslinjebillede{
+/*Styling af billedet med tidslinjen*/
+    .tidslinjebillede{
     max-width: 1420px;
     max-height: 700px;
-  }
+    }
