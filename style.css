@@ -13,6 +13,22 @@
 /*Vores biler styling slutter*/
 
 /*Køb og Leasing styling begynder*/
+.grid-container-kobogleasing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "section section aside aside"
+    "booking booking booking booking"
+    "article article textarea textarea"
+    "contact contact picture picture"
+    "footer footer footer footer"
+    ;
+}
+
+
 
 /*Køb og Leasing styling slutter*/
 
