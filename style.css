@@ -31,6 +31,7 @@ header img {
 }
 
 /*Køb og Leasing styling begynder*/
+/*Her er min grid container*/
 .grid-container-kobogleasing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -46,6 +47,7 @@ header img {
     ;
 }
 
+/*Her er stylingen af mit forside billede*/
 .forside-billede {
     grid-area: forsidebillede;
     background-color: #ECF0EB;
@@ -56,6 +58,7 @@ header img {
     height: 100%;
 }
 
+/*Her er stylingen af mindter sektionen med køb af bil og billede*/
 .bilkob {
     grid-area: buy;
     background-color: #ECF0EB;
@@ -102,6 +105,7 @@ header img {
     margin-bottom: 0;
 }
 
+/*Her er stylingen af min booking sektion og booking formular*/
 .booking {
     grid-area: booking;
     background-color: #236F9F;
@@ -164,6 +168,8 @@ header img {
     float: center; 
   }
 
+
+/*Her er stylingen af leasing sektionen og billede dertil*/  
 .leasing-billede {
     grid-area: leasing;
     background-color: #ECF0EB;
@@ -195,6 +201,7 @@ header img {
     margin-bottom: 20px;
 }
 
+/*Her er stylingen af kontakt sectionen og billede*/
 .hello {
     grid-area: hello;
     background-color: #ECF0EB;
@@ -226,6 +233,7 @@ header img {
     height: 100%;
 }
 
+/*Her begynder stylingen af footeren*/
 .footer {
     grid-area: footer;
     background-color: #0C6B00;
