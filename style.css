@@ -52,18 +52,15 @@ header img {
 }
 
 
-.kob-bil {
+.bilkob {
     grid-area: buy;
     background-color: #ECF0EB;
 }
-
 
 .køb-billede {
     grid-area: buypic;
     background-color: chartreuse;
 }
-
-
 
 .booking {
     grid-area: booking;
@@ -80,19 +77,20 @@ header img {
     background-color: darkblue;
 }
 
-.kontakt {
+.hello {
     grid-area: hello;
-    background-color: darkgreen;
-} 
+    background-color: saddlebrown;
+}
 
-.kontakt-billede {
+.hello-billede {
     grid-area: hellopic;
     background-color: darksalmon;
 }
 
-footer {
+.footer {
     grid-area: footer;
-    background-color: #0C6B00;
+    background-color: pink;
 }
+
 
 /*Køb og Leasing styling slutter*/
