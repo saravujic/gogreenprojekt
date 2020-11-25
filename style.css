@@ -153,7 +153,9 @@ footer-biler{
     text-transform: uppercase;
     color: #E1EBE1;
   }
-  
+  .center-box{
+      padding-top: 25px;
+  }
   .center-box h2{
     text-transform: uppercase;
     color: #E1EBE1;
