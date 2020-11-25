@@ -4,3 +4,31 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #ECF0EB;
+    overflow-x:hidden;
+  }
+  
+
+  .grid-container-vbiler{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: 1fr 1fr 1fr 1.6fr;
+      grid-template-rows: 0.5fr 1.5fr 1.2fr 0.2fr;
+      grid-template-areas: 
+      "header header header header"
+      "main main main aside"
+      "article article article aside"
+      "footer footer footer footer";
+  }
+
+  main-biler{
+      background-color: beige;
+      grid-area: main;
+  }
+  main-biler img{
+      width: 100%;
+      height: 100%;
+  }
