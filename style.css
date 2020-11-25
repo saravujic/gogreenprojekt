@@ -51,10 +51,6 @@ header img {
   }
 
 
-
-
-
-  
   main-biler{
       background-color: beige;
       grid-area: main;
@@ -63,3 +59,89 @@ header img {
       width: 100%;
       height: 100%;
   }
+
+  article-biler{
+    background-color: #236F9E;
+    grid-area: article;
+    display: flex;
+}
+article-biler img{
+ width: 50%;
+ height: 100%;
+
+}
+
+.text-flex{
+    flex: 1;
+}
+.hovedtitel{
+   padding: 25px 55px;
+    color: #ecf0eb;;
+    font-size: 35px;
+}
+
+.tilbud{
+    padding: 25px 55px;
+    color: #ecf0eb;;
+    font-size: 25px;
+}
+
+aside-biler{
+    background-color: #ecf0eb;
+    grid-area: aside;
+    overflow-y: scroll;
+}
+
+.car-container1{
+    padding: 30px 45px;
+}
+.car-container1 img{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    transition: transform .2s;
+  }
+  .car-container1 img:hover{
+    transform: scale(1.08);
+  }
+  .car-container1 p{
+    color:#103D1D; 
+    margin: 20px 60px;
+  }
+  
+  /*fælles knap ul li a*/
+  
+  ul li {
+    list-style-type: none;
+    text-decoration: none;
+    background-color:#236F9E;
+    width: 157px;
+    height: 40px;
+    margin: 20px 150px;
+    cursor: pointer;
+  
+  }
+  ul li:hover{
+      background-color: #1A4965;
+  }
+   ul li a{
+    color: #fff;
+    margin: 0 auto;
+    display: table;
+    padding-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    
+  }
+  
+.text-flex .readborder .liborder{
+    list-style-type: none;
+    text-decoration: none; 
+    border: solid 2px #ecf0eb;
+    
+}
+
+footer-biler{
+    background-color:  #31878A;;
+    grid-area: footer;
+}
