@@ -106,6 +106,21 @@ header img {
     background-color: coral;
 }
 
+.booking h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.booking p {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
 .booking-formular {
     grid-area: formular;
     background-color: grey;
