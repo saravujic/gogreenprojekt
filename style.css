@@ -30,6 +30,114 @@ header img {
     width: 9%;
 }
 
+
+/*Vores biler styling starter*/
+.grid-container-vbiler{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1.6fr;
+    grid-template-rows: 0.5fr 1.5fr 1.2fr 0.2fr;
+    grid-template-areas: 
+    "header header header header"
+    "main-biler main-biler main-biler aside-biler"
+    "article-biler article-biler article-biler aside-biler"
+    "footer footer footer footer";
+}
+
+
+main-biler{
+    background-color: beige;
+    grid-area: main-biler;
+}
+main-biler img{
+    width: 100%;
+    height: 100%;
+}
+
+article-biler{
+  background-color: #236F9E;
+  grid-area: article-biler;
+  display: flex;
+}
+article-biler img{
+width: 50%;
+height: 100%;
+
+}
+
+.text-flex{
+  flex: 1;
+}
+.hovedtitel{
+ padding: 25px 55px;
+  color: #ecf0eb;;
+  font-size: 35px;
+}
+
+.tilbud{
+  padding: 25px 55px;
+  color: #ecf0eb;;
+  font-size: 25px;
+}
+
+aside-biler{
+  background-color: #ecf0eb;
+  grid-area: aside-biler;
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+.car-containerXD{
+  padding: 30px 45px;
+}
+.car-containerXD img{
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  transition: transform .2s;
+}
+.car-containerXD img:hover{
+  transform: scale(1.08);
+}
+.car-containerXD p{
+  color:#103D1D; 
+  margin: 20px 60px;
+}
+
+/*fælles knap ul li a*/
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
+  background-color:#236F9E;
+  width: 157px;
+  height: 40px;
+  margin: 20px auto;
+  cursor: pointer;
+
+}
+ul li:hover{
+    background-color: #1A4965;
+}
+ ul li a{
+  color: #fff;
+  margin: 0 auto;
+  display: table;
+  padding-top: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+.text-flex .readborder .liborder{
+  list-style-type: none;
+  text-decoration: none; 
+  border: solid 2px #ecf0eb;
+  
+}
+/*Vores biler styling slutter her*/
+
+
 /*Køb og Leasing styling begynder*/
 /*Her er min grid container*/
 .grid-container-kobogleasing {
