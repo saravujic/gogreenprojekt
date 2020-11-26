@@ -32,7 +32,238 @@ header img {
 
 
 /*Forside styling starter her*/
+.grid-container-forside{
+    display: grid;
+    
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 2fr 0.5fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "picture picture picture aside"
+    "section section section section"
+    "footer footer footer footer";
+  }
 
+
+/*main content here    height: 150vh; til grid*/
+
+/*main here*/
+
+.main-billede {
+    grid-area: main;
+}
+
+
+
+.main-billede img{
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+    background-size: cover;
+}
+
+.button-laes-mere{
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ECF0EB;
+    grid-area: main;
+    cursor: pointer;
+}
+
+.button-privatleasing{
+    position: absolute;
+    top: 1000px;
+    left: 255px;
+    color: #ECF0EB;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: #ECF0EB;
+    background-color: transparent;
+    grid-area: main;
+    cursor: pointer;
+}
+
+.main-privatleasing{
+    position: absolute;
+    color: #ECF0EB;
+    bottom: -248px;
+    left: 53px;
+}
+
+.main-title{
+    position: absolute;
+    color: #ECF0EB;
+    top: 130px;
+    padding-left: 445px;
+    font-size: 60px;
+    
+}
+/*picture of the white car section here*/
+
+.picture-elbil {
+    grid-area: picture;
+}
+
+.picture-elbil img{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+.picture-title{
+    position: absolute;
+    top: 1150px;
+    font-size: 60px;
+    left: 120px;
+    color: black;
+}
+
+/*aside text here*/
+
+.aside-article{
+    background-color: #236F9E;
+    grid-area: aside;
+}
+
+.aside-title{
+    color: #ECF0EB;
+    padding-left: 20px;
+    margin-bottom: 45px;
+    font-size: 60px;
+
+}
+
+.aside-text{
+    color: #ECF0EB;
+    padding-left: 20px;
+
+}
+
+.button-aside{
+    background-color: transparent;
+    position: absolute;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #ECF0EB;
+    border-color: #ECF0EB;
+    top: 1700px;
+    right: 174px;
+    grid-area: aside;
+    cursor: pointer;
+}
+
+/*section here*/
+
+.section-icons{
+    justify-content: center;
+    display: flex;
+    grid-area: section;
+    margin: 30px;
+}
+
+.container1 img{
+    height: 266px;
+    width: 222px;
+    grid-area: section;
+    
+}
+
+.container1-title{
+    position: absolute;
+    top: 1860px;
+}
+
+.container2 img{
+    width: 120px;
+    height: 190px;
+    background-size: cover;
+    grid-area: section;
+}
+
+.container3 img{
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    grid-area: section;
+    
+}
+
+
+
+.container1, .container2, .container3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    grid-area: section;
+    margin: 20px;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.button-container1{
+    position: absolute;
+    color: #ECF0EB;
+    background-color: #236F9E;
+    border: none;
+    display: block;
+    width: 420px;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    top: 2110px;
+    cursor: pointer;
+}
+
+.button-container2{
+    position: absolute;
+    color: #ECF0EB;
+    background-color: #236F9E;
+    border: none;
+    display: block;
+    width: 421px;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    top: 2110px;
+    cursor: pointer;
+}
+
+.button-container3{
+    position: absolute;
+    color: #ECF0EB;
+    background-color: #236F9E;
+    border: none;
+    width: 390px;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    top: 2110px;
+    cursor: pointer;
+}
 /*Forside styling slutter her*/
 
 
