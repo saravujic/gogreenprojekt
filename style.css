@@ -47,7 +47,7 @@ header img {
       "header header header header"
       "main-biler main-biler main-biler aside-biler"
       "article-biler article-biler article-biler aside-biler"
-      "footer-biler footer-biler footer-biler footer-biler";
+      "footer footer footer footer";
   }
 
 
@@ -141,9 +141,9 @@ aside-biler{
     
 }
 
-footer-biler{
+footer{
     background-color: #0C6B00; 
-    grid-area: footer-biler;
+    grid-area: footer;
 }
 .footer-main {
     padding: 10px 15px;
