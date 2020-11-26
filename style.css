@@ -128,3 +128,31 @@
     max-width: 1420px;
     max-height: 700px;
     }
+
+/*Her starter footer*/ 
+    footer {
+    background-color: green;
+    grid-area: footer;
+  }
+  
+  footer {
+    background-color: #0C6B00; 
+    grid-area: footer;
+  }
+  footer {
+    padding: 10px 15px;
+    margin: 10px; 
+  }
+  .left-box h2{
+    text-transform: uppercase;
+    color: #E1EBE1;
+  }
+  
+  .center-box h2{
+    text-transform: uppercase;
+    color: #E1EBE1;
+  }
+  
+  .center-box{
+    padding-top: 25px;
+  }
