@@ -598,7 +598,7 @@ ul li:hover{
     height: 100%;
 }
 
-/*Her begynder stylingen af footeren*/
+/*Her begynder stylingen af footeren på alle saider*/
 footer {
     grid-area: footer;
     background-color: #0C6B00;
@@ -721,3 +721,33 @@ footer {
     }
 
 /*Om os stylingen slutter her*/
+
+
+/*Her begynder stylingen af*/
+.information {
+    background-color: #ECF0EB; 
+    color: #103d1d;
+    padding: 45px;
+    padding-top: 5px;
+  }
+  
+  .saturday {
+    padding-left: 263px;
+    padding-bottom: -10px;
+    margin: 1px 0px;
+    margin-top: -19px;
+  }
+  
+  .sunday {
+    padding: 1px 371px;
+    margin: 1px 0px;
+    margin-top: -19px;
+  }
+  .aabningstider {
+  margin-bottom: 1px;
+  }
+  .map{
+    width: 1903px;
+    height: 700px;
+}
+/*Her slutter stylingen på kontakt*/
