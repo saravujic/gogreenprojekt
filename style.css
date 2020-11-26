@@ -279,3 +279,101 @@ footer {
 }
 
 /*Køb og Leasing styling slutter*/
+
+/*Om os stylingen begynder her*/
+/*Grid container*/
+.grid-container-omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "main main aside aside"
+    "article article picture picture"
+    "timeline timeline timeline timeline"
+    "footer footer footer footer"
+    ;
+    }
+
+    /*Grid area*/
+    .billedeafbil {
+    grid-area: main;
+    background-color: #ECF0EB;
+    }
+    
+/*Styling af billedet af el-bilen*/
+    .billedeafelbil {
+    height: 100%;
+    width: 100%; 
+    }
+
+/*Grid area*/
+    .voreskoncept {
+    grid-area: aside;
+    background-color: #ECF0EB;
+    }
+  
+
+/*Titel til vores koncept*/
+  .titeltilalt {
+  color: #103D1D;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 15%;
+  text-decoration: underline;
+  }
+
+
+/*Lille tekst i højre side til vores koncept*/
+    .teksttilkoncept {
+    color: #103D1D;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+
+/*Grid area*/
+    .ejernebag {
+    background-color: #ECF0EB;
+    grid-area: article;
+    }
+  
+/*Lille tekst i venstre side til ejerne bag*/ 
+  .teksttilejernebag {
+  color: #103D1D;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+    }
+
+/*Grid area*/
+    .billedeafejerne{
+    background: #ECF0EB;
+    grid-area: picture;
+    }
+  
+/*Styling af billede af ejerne*/
+  .ejereafbillede {
+  width: 100%;
+  height: 100%;
+  }
+
+
+/*Grid area*/
+    .tidslinjen {
+    background-color: #ECF0EB;
+    grid-area: timeline;
+    }
+  
+/*Styling af billedet med tidslinjen*/
+    .tidslinjebillede{
+    max-width: 1420px;
+    max-height: 700px;
+    }
+
+/*Om os stylingen slutter her*/
