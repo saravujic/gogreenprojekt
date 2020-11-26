@@ -4,3 +4,25 @@
     font-family: sans-serif;
 }
 
+.information {
+    background-color: #ECF0EB; 
+    color: #103d1d;
+    padding: 45px;
+    padding-top: 5px;
+  }
+  
+  .saturday {
+    padding-left: 263px;
+    padding-bottom: -10px;
+    margin: 1px 0px;
+    margin-top: -19px;
+  }
+  
+  .sunday {
+    padding: 1px 371px;
+    margin: 1px 0px;
+    margin-top: -19px;
+  }
+  .aabningstider {
+  margin-bottom: 1px;
+  }
