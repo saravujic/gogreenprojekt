@@ -8,7 +8,6 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #ECF0EB;
-    overflow-x:hidden;
   }
   
   /*Header styling*/
@@ -90,6 +89,7 @@ aside-biler{
     background-color: #ecf0eb;
     grid-area: aside-biler;
     overflow-y: scroll;
+    overflow-x:hidden;
 }
 
 .car-containerXD{
